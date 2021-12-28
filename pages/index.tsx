@@ -6,10 +6,12 @@ const index = () => {
   return (
     <div className="font-commissioner">
       <TheHeader />
-      <main className="px-6 relative -top-14 space-y-8">
-        <ProjectSection />
-        <DataSection />
-      </main>
+      <div className="bg-gray-50">
+        <main className="px-6 relative -top-14 space-y-8">
+          <ProjectSection />
+          <DataSection />
+        </main>
+      </div>
     </div>
   );
 };
