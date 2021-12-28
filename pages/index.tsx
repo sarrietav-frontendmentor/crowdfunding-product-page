@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const index = () => {
   return (
-    <div>
+    <div className='font-commissioner'>
       <TheHeader />
       <main>
         <section>
