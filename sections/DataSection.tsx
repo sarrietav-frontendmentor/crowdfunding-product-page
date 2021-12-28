@@ -18,6 +18,7 @@ const DataSection = () => {
         <DataValue>56</DataValue>
         <DataDescription>days left</DataDescription>
       </DataContainer>
+      {/* // TODO: Make progress bar */}
     </Section>
   );
 };
