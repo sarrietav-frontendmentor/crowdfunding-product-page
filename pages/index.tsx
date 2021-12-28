@@ -1,5 +1,5 @@
+import Button from '@/components/Button';
 import TheHeader from '@/components/TheHeader';
-import Head from 'next/head';
 
 const index = () => {
   return (
@@ -18,9 +18,7 @@ const index = () => {
             strain
           </p>
           <div className="flex place-content-center space-x-3">
-            <button className="bg-teal-500 text-white font-bold px-10 rounded-full">
-              Back this project
-            </button>
+            <Button>Back this project</Button>
             <button>
               <figure>
                 <img src="/icon-bookmark.svg" alt="Bookmark icon" />
