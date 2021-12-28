@@ -1,10 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import Button from '@/components/Button';
+import Section from '@/components/Section';
 import React from 'react';
 
 const ProjectSection = () => {
   return (
-    <section className="relative bg-white z-10 border rounded-lg px-5 py-10 space-y-6 flex flex-col place-content-center">
+    <Section>
       <figure className="flex place-content-center absolute -top-7 inset-x-0">
         <img src="/logo-mastercraft.svg" alt="Bookmark icon" />
       </figure>
@@ -22,7 +23,7 @@ const ProjectSection = () => {
           </figure>
         </button>
       </div>
-    </section>
+    </Section>
   );
 };
 
