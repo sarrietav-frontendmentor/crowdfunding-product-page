@@ -1,4 +1,6 @@
+import Section from '@/components/Section';
 import TheHeader from '@/components/TheHeader';
+import DataSection from '@/sections/DataSection';
 import ProjectSection from '@/sections/ProjectSection';
 
 const index = () => {
@@ -7,6 +9,7 @@ const index = () => {
       <TheHeader />
       <main className="px-6 relative -top-14">
         <ProjectSection />
+        <DataSection />
       </main>
     </div>
   );
